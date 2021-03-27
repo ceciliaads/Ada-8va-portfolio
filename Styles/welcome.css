@@ -1,0 +1,52 @@
+section {
+    display: flex;
+    align-items: center;
+    margin: 0 100px;
+    padding: 100px;
+    
+}
+
+main {
+    width: 50%;
+    height: 100%;
+    
+}
+
+aside {
+    width: 50%;
+    height: 100%;
+}
+
+.greeting {
+    font-size: 30px;
+    font-weight:900;
+}
+.main-title {
+    color: #D186A0;
+    font-size: 60px;
+    font-weight: 900;
+    padding: 10px 0;
+}
+
+.self-description {
+    padding: 10px 0;
+    padding-bottom: 40px;
+    color: #616161;
+
+}
+
+.lo-que-hago {
+    /* padding: 5px 10px; */
+    width: 200px;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+} 
+
+.img {
+    width: 100%;
+    height: auto;
+}
