@@ -3,7 +3,8 @@ header {
     padding: 15px;
     font-weight: 400;
     box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
-    /* position: fixed; */
+    position: fixed;
+    background-color: white;
 }
 
 .links-navegacion {

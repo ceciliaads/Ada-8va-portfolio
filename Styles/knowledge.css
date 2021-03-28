@@ -1,0 +1,59 @@
+.knowledge {
+    width: 100%;
+    background-color: #fdf8e874;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.content{
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.myKnowledge {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.technologies-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 70%;
+
+} 
+
+.img-container{
+    background-color: white;
+    width: 260px;
+    height: 230px;
+    font-weight: bold;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.img-container:hover {
+    /* color: #D186A0; NO ME FUNCIONA PONERLE COLOR SOLO AL TEXTO*/
+    border: 1px solid #D186A0;
+}
+
+
+
+.image {
+    width: 60%;
+    height: auto;
+}
+
+.img-name {
+    font-size: 20px;
+}
+
