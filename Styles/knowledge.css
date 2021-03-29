@@ -41,11 +41,14 @@
     text-align: center;
 }
 
-.img-container:hover {
-    /* color: #D186A0; NO ME FUNCIONA PONERLE COLOR SOLO AL TEXTO*/
+.img-container:hover{
+    
     border: 1px solid #D186A0;
 }
 
+.img-container:last-child:hover{
+    color: #D186A0;
+}
 
 
 .image {
