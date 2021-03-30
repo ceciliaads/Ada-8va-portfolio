@@ -1,6 +1,30 @@
 .fifth-section-container {
-    display: flex;
-    justify-content: center;
     background-color: #fdf8e874;
     padding: 100px ;
+}
+
+.contact-form-container {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 50px 0;
+}
+
+.links-social-media {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.icon-sm {
+    color:#D186A0;
+}
+
+.contact-column {
+    display: flex;
 }

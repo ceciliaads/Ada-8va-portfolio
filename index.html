@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="Styles/quote.css">
     <link rel="stylesheet" href="Styles/projects.css">
     <link rel="stylesheet" href="Styles/form.css">
+    <link rel="stylesheet" href="Styles/footer.css">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -182,70 +183,125 @@
     <!-- 5th SECTION - CONTACT/FORM -->
 
     <section class="fifth-section-container">
-        <aside class="contact section">
-            <h2>Contactame</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus officia enim quidem earum deleniti aspernatur consequuntur iure inventore accusantium eos?</p>
-
-            <div class="social-media-links">
-                <ul>
-                    <li>
-                        <a>
-                            <img src="https://img.icons8.com/android/24/000000/twitter.png"/>
-                        @ceciidasilva
-                        </a>
-                    </li>
-                    <li>
-                        <a>
-                            <img src="https://img.icons8.com/ios-filled/50/000000/github-2.png"/>
-                            ceciliaads
-                        </a>
-                    </li>
-                    <li>
-                        <a>
-                            <img src="https://img.icons8.com/android/24/000000/linkedin.png"/>
-                            ceciliaadasilva
-                        </a>
-                    </li>
-                    <li>
-                        <a>
-                            <img src="https://img.icons8.com/fluent-systems-filled/24/000000/filled-message.png"/>
-                            ceciliaadasilva@hotmail.com
-                        </a>
-                    </li>
-                </ul>
-
-            </div>
-        </aside>
-        <div class="form-container">
-            <h2>Escribime</h2>
-            <form>
-                
-                <label for="nameId">Nombre *</label>
-                <input type="text" id="nameId" placeholder="p.ej.: Cecilia" />
-              
-                <label for="surnameId">Apellido *</label>
-                <input type="text" id="surnameId" placeholder="p.ej.: Da Silva" />
-                
-                <div>
-                    <label for="emailId">Email *</label>
-                    <input type="email" id="emailId" placeholder="p.ej.: ceciliaadasilva@hotmail.com" />
+        
+        <div class="contact-form-container">
+            <aside class="contact section">
+                <h2>Contactame</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus officia enim quidem earum deleniti aspernatur consequuntur iure inventore accusantium eos?</p>
+    
+                <div class="links-sm-container">
+                    <ul class="links-social-media">
+                        <li>
+                            <a href="https://twitter.com/ceciidasilva" target="_blank">
+                                <i class="fab fa-twitter icon-sm"></i>
+                            @ceciidasilva
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/ceciliaads" target="_blank">
+                                <i class="fab fa-github-alt icon-sm"></i>
+                                ceciliaads
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/ceciliaadasilva/" target="_blank">
+                                <i class="fab fa-linkedin-in icon-sm"></i>
+                                ceciliaadasilva
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:ceciliaadasilva@hotmail.com" target="_blank">
+                                <i class="fas fa-envelope icon-sm"></i>
+                                ceciliaadasilva@hotmail.com
+                            </a>
+                        </li>
+                    </ul>
+    
                 </div>
-                
-                <div>
-                    <label for="commentsId">Mensaje *</label>
-                    <div>
-                        <textarea id="commentsId" cols="50" rows="4"></textarea>
+            </aside>
+            <div class="form-container">
+                <h2>Escribime</h2>
+                <form>
+                    <div class="contact-column">
+                        <label for="nameId">Nombre *</label>
+                        <div>
+                            <input type="text" id="nameId" placeholder="p.ej.: Cecilia" />
+                        </div>
+                    
+                  
+                        <label for="surnameId">Apellido *</label>
+                        <div>
+                            <input type="text" id="surnameId" placeholder="p.ej.: Da Silva" />
+                        </div>
                     </div>
                     
-                </div>
-                
-                <div>
-                    <button class="send boton">Enviar</button>
-                </div>
-                
-            </form>
+                    
+                    
+                    <div>
+                        <label for="emailId">Email *</label>
+                        <input type="email" id="emailId" placeholder="p.ej.: ceciliaadasilva@hotmail.com" size="59"/>
+                    </div>
+                    
+                    <div>
+                        <label for="commentsId">Mensaje *</label>
+                        <div>
+                            <textarea id="commentsId" cols="50" rows="4"></textarea>
+                        </div>
+                        
+                    </div>
+                    
+                    <div>
+                        <button class="send boton">Enviar</button>
+                    </div>
+                    
+                </form>
+            </div>
         </div>
+        
     </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+        
+        <nav>
+            <ul class="link-navegation-footer">
+                <li><a href="" class="link-footer">HOLA</a></li>
+                <li><a href="" class="link-footer">CONOCIMIENTOS</a></li>
+                <li><a href="" class="link-footer">PROYECTOS</a></li>
+                <li><a href="" class="link-footer">CONTACTO</a></li>
+            </ul>
+        </nav>
+        
+        <nav>
+            <ul class="link-navegation-footer social-media">
+                <li>
+                    <a href="https://twitter.com/ceciidasilva" target="_blank">
+                        <i class="fab fa-twitter icon-sm"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/ceciliaads" target="_blank">
+                        <i class="fab fa-github-alt icon-sm"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/ceciliaadasilva/" target="_blank">
+                        <i class="fab fa-linkedin-in icon-sm"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:ceciliaadasilva@hotmail.com" target="_blank">
+                        <i class="fas fa-envelope icon-sm"></i>
+                    </a>
+                </li>
+        </nav>
+        
+        <div>
+            <p class="madeBy-footer">Made with lots of 💛 by Cecilia Da Silva</p>
+        </div>
+
+    </footer>
 
 </body>
 </html>

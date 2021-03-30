@@ -13,7 +13,7 @@ aside {
 .firstSection {
     display: flex;
     align-items: center;
-    margin: 0 100px;
+    /* margin: 0 100px; */
     padding: 100px;
     
 }
