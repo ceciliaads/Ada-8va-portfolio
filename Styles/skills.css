@@ -1,4 +1,4 @@
-.knowledge {
+.skills{
     /* width: 100%; */
     background-color: #fdf8e874;
     display: flex;
@@ -11,10 +11,15 @@
 .content{
     text-align: center;
     font-size: 25px;
-
 }
 
-.myKnowledge {
+.mySkillsContainer{
+    width: 500px;
+    text-align: center;
+    padding: 20px;
+}
+
+.mySkills {
     padding: 20px;
     font-size: 20px;
 }
@@ -25,7 +30,6 @@
     flex-wrap: wrap;
     align-content: center;
     width: 70%;
-
 } 
 
 .img-container{
@@ -42,14 +46,12 @@
 }
 
 .img-container:hover{
-    
     border: 1px solid #D186A0;
 }
 
-.img-container:last-child:hover{
+.img-container:hover .img-name{
     color: #D186A0;
 }
-
 
 .image {
     width: 60%;

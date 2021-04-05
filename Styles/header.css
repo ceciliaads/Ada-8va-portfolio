@@ -12,20 +12,37 @@ header {
     justify-content: flex-end;
     align-items: center;
     list-style-type: none;
-    margin-right: 200px;
+    margin-right: 150px;
 }
 
 .link {
-    margin: 10px;
-    padding: 10px 20px;
+    margin: 0 10px;
+    padding: 0 20px;
+    border-radius: 50px;
 }
 
-.boton {
+.link:visited {
+    color: #2e2e31;
+}
+
+/* .link:active {
+    padding: 10px;
+    box-shadow: 0 0 10px 0 #d186a0ad;
+} */
+
+.button {
     background-color: #D186A0;
     color: #fff;
-    padding: 15px 40px; 
+    padding: 10px 40px; 
     border-radius: 100px;
-    width: 110px;
+    /* width: 100px; */
     text-align: center;
+}
 
+.button :visited {
+    color: #fff;
+}
+
+.button:hover {
+    background-color: #d28da5;
 }

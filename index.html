@@ -8,8 +8,8 @@
     <!-- Styles -->
     <link rel="stylesheet" href="Styles/style.css">
     <link rel="stylesheet" href="Styles/header.css">
-    <link rel="stylesheet" href="Styles/welcome.css">
-    <link rel="stylesheet" href="Styles/knowledge.css">
+    <link rel="stylesheet" href="Styles/hello.css">
+    <link rel="stylesheet" href="Styles/skills.css">
     <link rel="stylesheet" href="Styles/quote.css">
     <link rel="stylesheet" href="Styles/projects.css">
     <link rel="stylesheet" href="Styles/form.css">
@@ -28,20 +28,22 @@
     <header>
         <nav>
             <ul class="links-navegacion">
-                <li class="link">HOLA</li>
-                <li class="link">CONOCIMIENTOS</li>
-                <li class="link">PROYECTOS</li>
-                <li class="link boton contacto">CONTACTO</li>
+                <li class="link"><a href="#hello">HELLO</a></li>
+                <li class="link"><a href="#skills">SKILLS</a></li>
+                <li class="link"><a href="#projects">PROJECTS</a></li>
+                <li class="link button contact"><a href="#contact">CONTACT</a></li>
             </ul>
         </nav>
     </header>
-    <!-- FIRST SECTION - PRESENTATION -->
+    <!-- FIRST SECTION - HELLO/PRESENTATION -->
+    
+    <a name="hello">
     <section class="firstSection">
         <main>
-            <h2 class="greeting title">¡Hola! Soy</h2>
+            <h2 class="greeting title">Hello! I am</h2>
             <h1 class="main-title">Cecilia Da Silva</h1>
-            <p class="self-description">Estudiante de desarrollo front-end y psicologia. </p>
-            <div class="boton lo-que-hago">Lo que hago</div>
+            <p class="self-description">Front-end development & psychology student. </p>
+            <div class="button what-i-do"> <a href="#projects">What I do</a></div>
         </main>
 
         <aside>
@@ -49,21 +51,22 @@
         </aside>
     </section>
 
-    <!-- 2nd SECTION - MIS CONOCIMIENTOS -->
-    <section class="knowledge container">
+    <!-- 2nd SECTION - MY SKILLS -->
+
+    <a name="skills">
+    <section class="skills container">
 
         <div class="content second-section">
             
-            <h2>My knowledge</h2>
-            <div class="myKnowledgeContainer">
-                <p class="myKnowledge">
-                    Los lenguajes que domino hasta el momento son HTML5 y CSS3. Durante mi formacion en
-                    Ada, estare dominando los lenguajes y tecnologias mencionadas. 
+            <h2>My skills</h2>
+            <div class="mySkillsContainer">
+                <p class="mySkills">
+                    I've been learning HTML5 & CSS3 in the past months at Ada ITW. The following months in this new journey on the IT world will take me to learn the rest of languages mentioned below.
                 </p>
             </div>
         </div>
 
-        <!-- KNOWLEDGES -->
+        <!-- SKILLS -->
 
         <div class="technologies-container">
 
@@ -118,11 +121,16 @@
 
     <!-- 4th SECTION - "MY PROJECTS" -->
 
+    <a name="projects">
     <section class="fourth-section-container">
 
-        <div class="fourthSection-title">
-            <h2>Mis Proyectos</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, voluptatem totam ullam commodi veritatis a.</p>
+        <div class="content fourthSection-title">
+            <h2>My Projects</h2>
+
+            <div class="project-description-container"> 
+                <p class="project-description">These are the projects I'm going to be creating as I learn more programming languages.</p>
+            </div>
+            
         </div>
 
         <div class="projects-container">
@@ -137,13 +145,13 @@
             <div class="projects-img-container">
                 <a href="" target="_blank">
                     <img class="project-img generador-memes" src="Assets/Images/generador-de-memes.png">
-                    <p class="img-name">Generador de memes</p>
+                    <p class="img-name">Meme maker</p>
                 </a>
             </div>
 
             <div class="projects-img-container">
-                <a href="" target="_blank">
-                    <img class="project-img match3" src="Assets/Images/match3.png">
+                <a href="" target="_blank" checked>
+                    <img class="project-img match3" src="Assets/Images/match-3.png">
                     <p class="img-name">Match 3</p>
                 </a>
             </div>
@@ -151,28 +159,28 @@
             <div class="projects-img-container">
                 <a href="" target="_blank">
                     <img class="project-img controlador-de-gastos" src="Assets/Images/controlador-de-gastos.png">
-                    <p class="img-name">Controlador de gastos</p>
+                    <p class="img-name">Expenses controller</p>
                 </a>
             </div>
 
             <div class="projects-img-container">
                 <a href="" target="_blank">
                     <img class="project-img administrador-de-reuniones" src="Assets/Images/administrador-de-reuniones.png">
-                    <p class="img-name">Administrador de reuniones</p>
+                    <p class="img-name">Meetings administrator</p>
                 </a>
             </div>
 
             <div class="projects-img-container">
                 <a href="" target="_blank">
                     <img class="project-img todo-app" src="Assets/Images/todo-app.png">
-                    <p class="img-name">Todo app</p>
+                    <p class="img-name">All app</p>
                 </a>
             </div>
 
             <div class="projects-img-container">
                 <a href="" target="_blank">
-                    <img class="project-img buscador-de-peliculas" src="Assets/Images/bucador-de-peliculas.png">
-                    <p class="img-name">Buscador de peliculas</p>
+                    <img class="project-img buscador-de-peliculas" src="Assets/Images/buscador-de-peliculas.png">
+                    <p class="img-name">Movie finder</p>
                 </a>
             </div>
             
@@ -181,7 +189,7 @@
     </section>
 
     <!-- 5th SECTION - CONTACT/FORM -->
-
+    <a name="contact">
     <section class="fifth-section-container">
         
         <div class="contact-form-container">

@@ -6,7 +6,15 @@
     color: #2e2e31;
 }
 
-body {
+/* body {
     width: 100vw;
     height: 100vh;
+} */
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #D186A0;
 }
