@@ -1,18 +1,13 @@
-main {
-    width: 50%;
-    height: 100%;
-}
-
-aside {
-    width: 50%;
-    height: 100%;
-}
-
 .firstSection {
     display: flex;
     align-items: center;
     /* margin: 0 100px; */
     padding: 100px;
+}
+
+.main-section-hello {
+    width: 50%;
+    height: 100%;
 }
 
 .greeting {
@@ -42,34 +37,37 @@ aside {
     display: flex;
     justify-content: center;
     align-items: center; 
-} 
+}
+
+.aside-hello {
+    width: 50%;
+    height: 100%;
+}
 
 .img {
     width: 100%;
     height: auto;
 }
 
-@media screen and (max-width: 400px) {
-    main {
-        width: 100%;
-        height: 100%;
-    }
-    
-    aside {
-        width: 100%;
-        height: 100%;
-    }
-
+@media screen and (max-width: 400px){
     .firstSection {
         display: flex;
         flex-direction: column;
         padding: 100px 20px;
     }
-
+    .main-section-hello {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
     .center {
         text-align: center;
     }
-
+    
     .greeting {
         font-size: 20px;
     }
@@ -78,8 +76,12 @@ aside {
         font-size: 40px;
     }
 
-    /*BOTON WHAT I DO NO SE CENTRA, NO LOGRO VER POR QUE*/
     .what-i-do {
         font-size: 15px;
+    }
+    
+    .aside-hello {
+        width: 100%;
+        height: 100%;
     }
 }
