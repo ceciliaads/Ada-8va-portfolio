@@ -1,6 +1,6 @@
 header {
     width: 100%;
-    padding: 15px;
+    padding: 25px;
     font-weight: 400;
     box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
     position: fixed;
@@ -45,4 +45,10 @@ header {
 
 .button:hover {
     background-color: #d28da5;
+}
+
+@media screen and (max-width: 400px) {
+    header {
+        display: none;
+    }
 }

@@ -1,7 +1,6 @@
 footer {
     background-color: #D186A0;
-    /* padding: 80px; */
-
+    padding: 50px;
 }
 
 .link-navegation-footer {
@@ -10,7 +9,6 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 20px;
-
 }
 
 .link-footer, .link-footer:visited {
@@ -20,15 +18,6 @@ footer {
     text-decoration: none;
 }
 
-/* .link-navegation-footer {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    padding-right: 40px;
-    list-style-type: none;
-
-} */
-
 .icon-sm, .icon-sm:visited {
     font-size: 20px;
     margin: 10px;
@@ -37,9 +26,27 @@ footer {
     border-radius: 100px;
 }
 
-.madeBy-footer {
+.madeBy {
     text-align: center;
     color: snow;
     font-size: 15px;
     padding: 20px;
+}
+
+@media screen and (max-width: 400px) {
+    footer {
+        padding: 30px;
+    }
+    
+    .link-navegation-footer {
+        display: none;
+    }
+
+    .social-media {
+        display: flex;
+    }
+
+    .madeBy {
+        padding-top: 10px;
+    }
 }

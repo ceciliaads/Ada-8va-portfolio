@@ -1,8 +1,6 @@
-
 main {
     width: 50%;
     height: 100%;
-    
 }
 
 aside {
@@ -15,7 +13,6 @@ aside {
     align-items: center;
     /* margin: 0 100px; */
     padding: 100px;
-    
 }
 
 .greeting {
@@ -23,7 +20,7 @@ aside {
     font-weight:900;
 }
 
-.main-title {
+.name {
     color: #D186A0;
     font-size: 60px;
     font-weight: 900;
@@ -34,7 +31,6 @@ aside {
     padding: 10px 0;
     padding-bottom: 40px;
     color: #616161;
-
 }
 
 .what-i-do {
@@ -51,4 +47,39 @@ aside {
 .img {
     width: 100%;
     height: auto;
+}
+
+@media screen and (max-width: 400px) {
+    main {
+        width: 100%;
+        height: 100%;
+    }
+    
+    aside {
+        width: 100%;
+        height: 100%;
+    }
+
+    .firstSection {
+        display: flex;
+        flex-direction: column;
+        padding: 100px 20px;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .greeting {
+        font-size: 20px;
+    }
+    
+    .name {
+        font-size: 40px;
+    }
+
+    /*BOTON WHAT I DO NO SE CENTRA, NO LOGRO VER POR QUE*/
+    .what-i-do {
+        font-size: 15px;
+    }
 }

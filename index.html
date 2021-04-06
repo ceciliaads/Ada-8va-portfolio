@@ -40,27 +40,27 @@
     <a name="hello">
     <section class="firstSection">
         <main>
-            <h2 class="greeting title">Hello! I am</h2>
-            <h1 class="main-title">Cecilia Da Silva</h1>
-            <p class="self-description">Front-end development & psychology student. </p>
+            <h2 class="greeting title center">Hello! I am</h2>
+            <h1 class="main-title name center">Cecilia Da Silva</h1>
+            <p class="self-description center">Front-end development & psychology student. </p>
             <div class="button what-i-do"> <a href="#projects">What I do</a></div>
         </main>
 
         <aside>
-            <img alt="" class="img welcome" src="Assets/Images/hola-soy-cds.png">
+            <img alt="girl sitting on a computer working on a computer" class="img welcome" src="Assets/Images/hola-soy-cds.png">
         </aside>
     </section>
 
     <!-- 2nd SECTION - MY SKILLS -->
 
     <a name="skills">
-    <section class="skills container">
+    <section class="skills-container">
 
         <div class="content second-section">
             
-            <h2>My skills</h2>
-            <div class="mySkillsContainer">
-                <p class="mySkills">
+            <h2 class="fz-50">My skills</h2>
+            <div class="mySkills container">
+                <p class="mySkills description">
                     I've been learning HTML5 & CSS3 in the past months at Ada ITW. The following months in this new journey on the IT world will take me to learn the rest of languages mentioned below.
                 </p>
             </div>
@@ -125,10 +125,10 @@
     <section class="fourth-section-container">
 
         <div class="content fourthSection-title">
-            <h2>My Projects</h2>
+            <h2 class="fz-50 my-projects">My Projects</h2>
 
-            <div class="project-description-container"> 
-                <p class="project-description">These are the projects I'm going to be creating as I learn more programming languages.</p>
+            <div class="project-description container"> 
+                <p class="projects description">These are the projects I'm going to be creating as I learn more programming languages.</p>
             </div>
             
         </div>
@@ -194,8 +194,10 @@
         
         <div class="contact-form-container">
             <aside class="contact section">
-                <h2>Contactame</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus officia enim quidem earum deleniti aspernatur consequuntur iure inventore accusantium eos?</p>
+                <h2 class="contact-me p-20 fz-50">Contact me</h2>
+                <div class="container-description">
+                    <p class="contact-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus officia enim quidem earum deleniti aspernatur consequuntur iure inventore accusantium eos?</p>
+                </div>
     
                 <div class="links-sm-container">
                     <ul class="links-social-media">
@@ -227,41 +229,43 @@
     
                 </div>
             </aside>
+
             <div class="form-container">
-                <h2>Escribime</h2>
-                <form>
-                    <div class="contact-column">
-                        <label for="nameId">Nombre *</label>
-                        <div>
-                            <input type="text" id="nameId" placeholder="p.ej.: Cecilia" />
+                <h2 class="message-me fz-50">Message me</h2>
+                
+                <form class="form">
+                    <div class="contact-form">
+                        <div class="input-style">
+                            <label class="label" for="nameId">Name *</label>
+                            <input class="input" type="text" id="nameId" placeholder="e.g.: Cecilia" />
                         </div>
                     
-                  
-                        <label for="surnameId">Apellido *</label>
-                        <div>
-                            <input type="text" id="surnameId" placeholder="p.ej.: Da Silva" />
+                        <div class="input-style">
+                            <label class="label" for="surnameId">Last Name *</label>
+                            <input class="input" type="text" id="surnameId" placeholder="e.g.: Da Silva" />
                         </div>
                     </div>
                     
-                    
-                    
-                    <div>
-                        <label for="emailId">Email *</label>
-                        <input type="email" id="emailId" placeholder="p.ej.: ceciliaadasilva@hotmail.com" size="59"/>
-                    </div>
-                    
-                    <div>
-                        <label for="commentsId">Mensaje *</label>
-                        <div>
-                            <textarea id="commentsId" cols="50" rows="4"></textarea>
+                    <div class="contact-form">
+                        <div class="input-style">
+                            <label class="label" for="emailId">Email *</label>
+                            <input class="input" type="email" id="emailId" placeholder="e.g.: ceciliaadasilva@hotmail.com" size="59"/>
                         </div>
                         
                     </div>
                     
-                    <div>
-                        <button class="send boton">Enviar</button>
+                    <div class="contact-form">
+                        <div class="input-style">
+                            <label class="label" for="commentsId">Message *</label>
+                            <textarea class="textarea" id="commentsId" cols="50" rows="10" placeholder="Left a message here"></textarea>
+                        </div>
+                        
                     </div>
                     
+                    <div class="contact-form-button">
+                        <button class="send button">Send</button>
+                    </div>
+
                 </form>
             </div>
         </div>
@@ -274,10 +278,10 @@
         
         <nav>
             <ul class="link-navegation-footer">
-                <li><a href="" class="link-footer">HOLA</a></li>
-                <li><a href="" class="link-footer">CONOCIMIENTOS</a></li>
-                <li><a href="" class="link-footer">PROYECTOS</a></li>
-                <li><a href="" class="link-footer">CONTACTO</a></li>
+                <li><a href="#hello" class="link-footer">HELLO</a></li>
+                <li><a href="#skills" class="link-footer">SKILLS</a></li>
+                <li><a href="#projects" class="link-footer">PROJECTS</a></li>
+                <li><a href="#contact" class="link-footer">CONTACT</a></li>
             </ul>
         </nav>
         
@@ -305,8 +309,8 @@
                 </li>
         </nav>
         
-        <div>
-            <p class="madeBy-footer">Made with lots of 💛 by Cecilia Da Silva</p>
+        <div class="mabeBy-container">
+            <p class="madeBy">Made with lots of 💛 by Cecilia Da Silva</p>
         </div>
 
     </footer>

@@ -1,6 +1,6 @@
-.skills{
+.skills-container{
     /* width: 100%; */
-    background-color: #fdf8e874;
+    background-color: #fdf8e8;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,17 +11,6 @@
 .content{
     text-align: center;
     font-size: 25px;
-}
-
-.mySkillsContainer{
-    width: 500px;
-    text-align: center;
-    padding: 20px;
-}
-
-.mySkills {
-    padding: 20px;
-    font-size: 20px;
 }
 
 .technologies-container {
@@ -62,3 +51,26 @@
     font-size: 20px;
 }
 
+@media screen and (max-width: 400px) {
+    .skills-container{
+        padding: 100px 10px;
+    }
+
+    .technologies-container {
+        width: 50%;
+        /* display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap; */
+    } 
+    
+    .img-container{
+        width: 200px;
+        height: 170px;
+    }
+
+    /*NO CONSIGO QUE LAS TARJETAS SE PONGAN EN FILA DE A DOS*/
+
+
+}

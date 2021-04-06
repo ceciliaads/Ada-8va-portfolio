@@ -1,5 +1,5 @@
 .fifth-section-container {
-    background-color: #fdf8e874;
+    background-color: #fdf8e8;
     padding: 100px ;
 }
 
@@ -9,7 +9,22 @@
     background-color: white;
     border: 1px solid lightgrey;
     border-radius: 10px;
-    /* padding: 50px 0; */
+    padding: 50px 0;
+    padding-bottom: 150px;
+}
+
+.container-description{
+    width: 70%;
+    padding: 0 20px;
+}
+
+.contact-description {
+   text-align: justify;
+   padding-top: 10px;
+}
+
+.links-sm-container {
+    margin-top: 20px;
 }
 
 .links-social-media {
@@ -19,9 +34,99 @@
 .icon-sm {
     color:#D186A0;
     padding: 10px;
-
 }
 
-.contact-column {
+.message-me {
+    padding-top: 20px;
+}
+
+.form {
+    width: 100%;
+    height: 100%;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
 }
+
+.label {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.input {
+    width: 100%;
+    height: 35px;
+    background-color: #fdf8e8;
+    border-radius: 100px;
+    border: transparent;
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+.textarea {
+    width: 100%;
+    background-color: #fdf8e8;;
+    border-radius: 20px;
+    border: transparent;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.textarea:focus, .input:focus {
+    outline: 0 none;
+    box-shadow: 0 0 10px 0 #d186a0ad;
+}
+
+.contact-form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+   
+.input-style{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.contact-form-button {
+    margin-top: 10px;
+}
+
+.send {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 400px) {
+    .fifth-section-container {
+        background-color: white;
+        padding: 10px 20px;
+    }
+
+    .contact-form-container {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border: 0 ;
+        
+        padding: 50px 0;
+        padding-bottom: 50px;
+    }
+
+    .container-description{
+        width: 90%;
+        padding: 10px;
+    }
+
+    .contact-form-button {
+        margin-top: 10px;
+    }
+}
+
