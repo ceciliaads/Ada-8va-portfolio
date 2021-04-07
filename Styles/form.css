@@ -31,15 +31,19 @@
     list-style-type: none;
 }
 
-.icon-sm, .icon-sm:visited {
+.icon-sm {
     color: #D186A0;
-    background-color: snow;
+    background-color: white;
     font-size: 20px;
     padding: 10px;
     margin: 10px;
     text-decoration: none;
     border: 1px solid white;
     border-radius: 100px;
+}
+
+.icon-sm:visited {
+    color: #D186A0;
 }
 
 .icon-container:hover .icon-sm {
