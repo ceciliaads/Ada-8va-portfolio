@@ -40,8 +40,12 @@ header {
     text-align: center;
 }
 
+.button-c-wid {
+    color: white;
+}
+
 .button-c-wid:visited {
-    color: snow;
+    color: white;
 }
 
 .button:hover {

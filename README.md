@@ -12,7 +12,7 @@ You may notice that in 'My Projects' section, the links will direct you to my po
 
 ## Find my portfolio
 
-[here:]()
+[here:](https://ceciliaads.github.io/Ada-8va-portfolio/)
 
 ---
 
@@ -30,5 +30,5 @@ Podran notar que en la seccion de "Mis Proyectos", todos los links los dirigen a
 
 ## Pueden encontrar mi portafolio 
 
-[acá:]()
+[acá:](https://ceciliaads.github.io/Ada-8va-portfolio/)
 
