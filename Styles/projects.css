@@ -73,12 +73,14 @@
     .projects-img-container {
         width: 400px;
         height: 300px;
-       
     }
 
     .projects-img-container .img-name {
         font-size: 15px;
         font-weight: 600;
-        padding-top: 0;
+    }
+
+    .project {
+        margin-top: 0;
     }
 }
