@@ -1,6 +1,6 @@
 .fifth-section-container {
     background-color: #fdf8e8;
-    padding: 100px ;
+    padding: 150px ;
 }
 
 .contact-form-container {
@@ -10,7 +10,7 @@
     border: 1px solid lightgrey;
     border-radius: 10px;
     padding: 50px 0;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
 
 .container-description{
@@ -102,6 +102,7 @@
 .send {
     font-size: 17px;
     font-weight: 400;
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 400px) {
