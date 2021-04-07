@@ -40,8 +40,8 @@ header {
     text-align: center;
 }
 
-.button :visited {
-    color: #fff;
+.button-c-wid:visited {
+    color: snow;
 }
 
 .button:hover {
