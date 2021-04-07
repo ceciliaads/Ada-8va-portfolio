@@ -18,6 +18,8 @@ header {
 .link {
     margin: 0 10px;
     padding: 0 20px;
+    padding: 10px;
+    border: 1px solid transparent;
     border-radius: 50px;
 }
 
@@ -25,10 +27,9 @@ header {
     color: #2e2e31;
 }
 
-/* .link:active {
-    padding: 10px;
+.link-active:active {
     box-shadow: 0 0 10px 0 #d186a0ad;
-} */
+}
 
 .button {
     background-color: #D186A0;
@@ -45,6 +46,10 @@ header {
 
 .button:hover {
     background-color: #d28da5;
+}
+
+.button:active {
+    box-shadow: 0 0 10px 0 #d186a0ad;
 }
 
 @media screen and (max-width: 1000px){

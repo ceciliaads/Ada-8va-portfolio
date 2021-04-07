@@ -31,9 +31,23 @@
     list-style-type: none;
 }
 
-.icon-sm {
-    color:#D186A0;
+.icon-sm, .icon-sm:visited {
+    color: #D186A0;
+    background-color: snow;
+    font-size: 20px;
     padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 100px;
+}
+
+.icon-container:hover .icon-sm {
+    background-color: #D186A0;
+}
+
+.icon-container:hover .icon-sm {
+    color: snow;
 }
 
 .message-me {
@@ -103,6 +117,7 @@
     font-size: 17px;
     font-weight: 400;
     margin-bottom: 20px;
+    outline: none;
 }
 
 @media screen and (max-width: 400px) {

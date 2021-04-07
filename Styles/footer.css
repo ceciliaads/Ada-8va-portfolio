@@ -1,6 +1,10 @@
 footer {
     background-color: #D186A0;
     padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .link-navegation-footer {
@@ -11,23 +15,20 @@ footer {
     padding: 20px;
 }
 
-.link-footer, .link-footer:visited {
+.link-footer, .link-footer:visited { 
     padding: 15px;
     color: #fff;
     font-size: 15px;
     text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 20px;
 }
 
-.icon-sm, .icon-sm:visited {
-    font-size: 20px;
-    margin: 10px;
-    text-decoration: none;
-    border: 2px solid white;
-    border-radius: 100px;
-}
+/* .link-footer :active {
+    box-shadow: 0 0 10px 0 #d186a0ad;
+} NO ME DEJA PONERLE ACTIVE A LOS LINKS DE FOOTER*/
 
 .madeBy {
-    text-align: center;
     color: snow;
     font-size: 15px;
     padding: 20px;
