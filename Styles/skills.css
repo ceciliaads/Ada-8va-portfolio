@@ -85,9 +85,13 @@
         width: 110%;
     } 
     
-    .img-container{
+    .skill-container{
         width: 180px;
         height: 180px;
+    }
+
+    .icon-tech {
+        margin-top: 0;
     }
 
 
