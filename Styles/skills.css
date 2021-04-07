@@ -21,7 +21,7 @@
     width: 70%;
 } 
 
-.img-container{
+.skill-container{
     background-color: white;
     width: 260px;
     height: 230px;
@@ -34,21 +34,46 @@
     text-align: center;
 }
 
-.img-container:hover{
+.skill-container:hover{
     border: 1px solid #D186A0;
 }
 
-.img-container:hover .img-name{
+.skill-container:hover .img-name{
     color: #D186A0;
 }
 
-.image {
-    width: 60%;
-    height: auto;
+.icon-tech {
+    font-size: 80px;
+    margin-top: 20px;
+}
+
+.fa-html5 {
+    color: #e54d26;
+}
+
+.fa-css3-alt {
+    color: #3d8fc6;;
+}
+
+.fa-sass {
+    color: #c69;
+}
+
+.fa-js {
+    color: #f0db4f;
+}
+
+.fa-react {
+    color: #61dafb;
+}
+
+.fa-git-alt {
+    color: #f34f29;
 }
 
 .img-name {
     font-size: 20px;
+    margin-top: 20px;
 }
 
 @media screen and (max-width: 400px) {
