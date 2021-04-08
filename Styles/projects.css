@@ -23,16 +23,16 @@
 }
 
 .projects-img-container {
-    background-color: white;
     width: 340px;
     height: 330px;
-    font-weight: bold;
-    border: 1px solid lightgrey;
-    border-radius: 8px;
     margin: 10px;
     padding: 30px;
-    box-sizing: border-box;
+    background-color: white;
+    font-weight: bold;
     text-align: center;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    box-sizing: border-box;
 }
 
 .projects-img-container .img-name {

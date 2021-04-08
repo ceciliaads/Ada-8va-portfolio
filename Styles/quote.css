@@ -1,12 +1,11 @@
 .third-section {
-    /* width: 100%; */
-    background-color: #D186A0;
-    padding: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    /* width: 100%; */
+    background-color: #D186A0;
+    padding: 100px;
 }
 
 .quote-icon {
@@ -24,7 +23,7 @@
     padding: 50px;
 }
 
-.quote{
+.quote {
     text-align: center;
     color: snow;
     font-size: 25px;
@@ -40,18 +39,15 @@
 
 @media screen and (max-width: 400px) {
     .third-section {
-        padding: 80px 20px; 
+        padding: 80px 20px;
     }
-
     .fa-quote-right {
         font-size: 50px;
         color: #fff;
     }
-
     .quote-container {
         width: 300px;
     }
-
     .quoteAuthor {
         font-size: 20px;
     }

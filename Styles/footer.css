@@ -1,10 +1,10 @@
 footer {
-    background-color: #D186A0;
-    padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #D186A0;
+    padding: 50px;
 }
 
 .link-navegation-footer {
@@ -15,7 +15,7 @@ footer {
     padding: 20px;
 }
 
-.link-footer  { 
+.link-footer {
     padding: 15px;
     color: #fff;
     font-size: 15px;
@@ -25,7 +25,11 @@ footer {
 }
 
 .link-footer:visited {
-    color: #fff;
+    color: white;
+}
+
+.link-footer:hover {
+    color: white;
 }
 
 /* .link-footer:active{
@@ -42,15 +46,12 @@ footer {
     footer {
         padding: 30px;
     }
-    
     .link-navegation-footer {
         display: none;
     }
-
     .social-media {
         display: flex;
     }
-
     .madeBy {
         padding-top: 10px;
     }
